@@ -1,0 +1,46 @@
+body, html {
+  overflow: hidden;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background: url("../../assets/images/background.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  padding: 3rem 5vw 5.1rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: rgba(241, 241, 241, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  max-width: 90%;
+  padding: 2rem;
+  text-align: center;
+}
+
+.quote {
+  font-size: 1.5rem;
+}
+
+.author {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+
+@media (max-width: 768px) {
+  .card {
+    padding: 1.5rem; 
+  }
+}
